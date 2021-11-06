@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MyRunPodDemo_Example' do
+  pod 'MyRunPodDemo', :path => '../'
+
+  target 'MyRunPodDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end

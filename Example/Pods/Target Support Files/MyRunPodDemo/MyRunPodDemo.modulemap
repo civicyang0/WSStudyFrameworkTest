@@ -1,0 +1,6 @@
+framework module MyRunPodDemo {
+  umbrella header "MyRunPodDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
